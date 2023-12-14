@@ -2,3 +2,8 @@ Aqui inicio el enlace desde el servidor ubuntu
 
 variante de cambio
 
+# commit "sitio web : estructura inicial"
+se debe configurara el archivo .env para conectar a la base de datos 
+y hacer la migracion de los post y los archivos seed
+-> php artisan migrate --seed
+

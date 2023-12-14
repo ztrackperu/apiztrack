@@ -21,3 +21,24 @@ npx tailwindcss init -p
 
 *o usar el cDN 
  <script src="https://cdn.tailwindcss.com"></script>
+
+ # commit -am "terminos"
+ identificamos los métodos 
+ GET : Quiero obtener datos
+ POST  : Quiero alterar la base de datos al insertar 
+ PUT /PATCH : Quiero actualizar datos (put todo los datos) (patch algunos datos)
+ DELETE :Quiero eliminar 
+* Estados http:
+2xx -> correcto
+200 ->ok
+201->Creado
+204 -> sin contenido 
+
+4xx->Bad Request
+
+3xx->Redireccion
+
+5xx->error del servidor 
+
+#endpoints
+los enlaces son endpoints 

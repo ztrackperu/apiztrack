@@ -42,3 +42,10 @@ npx tailwindcss init -p
 
 #endpoints
 los enlaces son endpoints 
+
+# commit -am "version 1: planificacion y configuracion inicial"
+ejecutar comando 
+// creamos un controlador que se conecta con el modelo Post y le pedimos que tenga una estrcutura api 
+php artisan make:controller Api/V1/PostController --api --model=Post
+//para ver la lista de rutas
+php artisan route:list

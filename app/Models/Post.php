@@ -25,5 +25,12 @@ class Post extends Model
         return $this->created_at->format('d/m/Y');
         
     }
+    // un post pertenece a un usuario
+    // recurso accede a traves de esta funcion
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+
+    }
 
 }

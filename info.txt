@@ -60,3 +60,5 @@ php artisan make:controller Api/V2/PostController --api --model=Post
 php artisan make:resource V2/PostResource
 
 php artisan make:resource V2/PostCollection
+
+#commit -am "Version2 : recurso"

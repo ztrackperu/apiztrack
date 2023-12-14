@@ -53,3 +53,10 @@ php artisan route:list
 #commit -am "Version 1:recurso"
 *ejecutar comando :
 php artisan make:resource V1/PostResource
+
+# commit -am "version 2"
+php artisan make:controller Api/V2/PostController --api --model=Post
+
+php artisan make:resource V2/PostResource
+
+php artisan make:resource V2/PostCollection

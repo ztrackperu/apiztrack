@@ -1,3 +1,6 @@
+para git 
+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
+
 Aqui inicio el enlace desde el servidor ubuntu
 #importante para actualizar dependencias del proeycto
 composer install
@@ -71,6 +74,8 @@ composer require laravel/sanctum
 *ejecutar 
 php artisan migrate
 *configurar
+
+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
 
 # git commit -am "api autentificacion"
 *creamos controlador

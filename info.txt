@@ -3,6 +3,8 @@ Aqui inicio el enlace desde el servidor ubuntu
 composer install
 npm install
 variante de cambio
+# dar permiso para poder acceder desde el public
+sudo chmod 777 -R storage
 
 # commit "sitio web : estructura inicial"
 se debe configurara el archivo .env para conectar a la base de datos 
@@ -11,3 +13,11 @@ y hacer la migracion de los post y los archivos seed
 
 #commit "sitio web : completando estructura"
 se corrije la vista de la lista de post en el index.blade.php
+
+#commit "mejorando el aspecto del sitio web con Tailwind CSS"
+*instalar Tailwind CSS"
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+*o usar el cDN 
+ <script src="https://cdn.tailwindcss.com"></script>

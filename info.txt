@@ -49,3 +49,7 @@ ejecutar comando
 php artisan make:controller Api/V1/PostController --api --model=Post
 //para ver la lista de rutas
 php artisan route:list
+
+#commit -am "Version 1:recurso"
+*ejecutar comando :
+php artisan make:resource V1/PostResource

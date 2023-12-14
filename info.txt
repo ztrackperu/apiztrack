@@ -62,3 +62,5 @@ php artisan make:resource V2/PostResource
 php artisan make:resource V2/PostCollection
 
 #commit -am "Version2 : recurso"
+
+#git commit -am "Version2 : coleccion"

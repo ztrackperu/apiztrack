@@ -64,3 +64,14 @@ php artisan make:resource V2/PostCollection
 #commit -am "Version2 : recurso"
 
 #git commit -am "Version2 : coleccion"
+
+# git commit -am "api privada"
+*instalmos componente de laravel 
+composer require laravel/sanctum
+*ejecutar 
+php artisan migrate
+*configurar
+
+# git commit -am "api autentificacion"
+*creamos controlador
+php artisan make:controller Api/LoginController
